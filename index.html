@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/dc85260881.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="grid grid-cols-5 grid-rows-[150px_1fr] min-h-screen">
+      <aside class="col-span-1 row-span-4 bg-blue-500">
+        <!-- first Div -->
+        <div class="flex gap-2 my-10 ml-4 items-center">
+          <i class="fa-brands fa-microsoft text-white text-2xl"></i>
+          <h3 class="text-white font-bold">Dashboard</h3>
+        </div>
+        <!-- second Div -->
+        <div class="flex flex-col gap-6 mt-10 mb-20 ml-4">
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-regular fa-house"></i> <a href="#">Home</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-regular fa-user"></i><a href="#">Profile</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-regular fa-envelope"></i><a href="#">Message</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-regular fa-clock"></i><a href="#">History</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-solid fa-book"></i><a href="#">Task</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-solid fa-users"></i><a href="#">Communities</a>
+          </div>
+        </div>
+        <!-- Third Div -->
+        <div class="flex flex-col gap-3 my-4 ml-4">
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-solid fa-gear"></i><a href="#">Settings</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-regular fa-circle-question"></i><a href="#">Support</a>
+          </div>
+          <div class="flex gap-2 items-center text-white font-bold">
+            <i class="fa-solid fa-shield"></i><a href="#">Privacy</a>
+          </div>
+        </div>
+      </aside>
+      <header class="col-span-4 bg-white">
+        <!-- header section 1 -->
+        <section
+          class="flex items-center justify-around w-9/10 mx-auto my-4 mb-6"
+        >
+          <!-- first-section-div -->
+          <div class="w-3/5 flex items-center gap-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="bg-gray-200 w-3/4 p-2 rounded-lg" />
+          </div>
+          <!-- section-section-div -->
+          <div class="flex items-center justify-end w-3/10 gap-3 text-center">
+            <i class="fa-regular fa-bell"></i>
+            <img src="/image/lady.jpg" class="w-10 h-10 rounded-full" />
+            <h4>Morgan Oakley</h4>
+          </div>
+        </section>
+        <!-- header section 2 -->
+        <section class="flex items-center justify-around w-9/10 mx-auto my-2">
+          <!-- second header section -first div -->
+          <div class="w-3/5 flex items-center gap-3">
+            <img src="/image/lady.jpg" class="w-15 h-15 rounded-full" />
+            <div>
+              <p>Hi, there</p>
+              <h4 class="">Morgan Oakley (@morgan)</h4>
+            </div>
+          </div>
+          <!-- second header section -second div -->
+          <div class="flex items-center justify-end w-3/10 gap-3 text-center">
+            <button
+              class="bg-blue-500 w-20 p-1 text-sm text-white rounded-xl font-bold"
+            >
+              New
+            </button>
+            <button
+              class="bg-blue-500 w-20 p-1 text-sm text-white rounded-xl font-bold"
+            >
+              Upload
+            </button>
+            <button
+              class="bg-blue-500 w-20 p-1 text-sm text-white rounded-xl font-bold"
+            >
+              Share
+            </button>
+          </div>
+        </section>
+      </header>
+      <main class="col-span-4 row-span-4 bg-gray-300">
+        <section class="grid grid-cols-6 grid-rows-[100px_1fr] min-h-screen">
+          <aside class="border col-span-1"></aside>
+          <header class="border col-span-5"></header>
+          <aside class="border"></aside>
+          <header class="border col-span-2"></header>
+          <main class="border col-span-2"></main>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
